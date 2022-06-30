@@ -85,7 +85,7 @@ features_df_new.columns = ['Features','Values']
     
 if col2.button(label = "Predict best settings", help = "Click on this button to find the best parameter settings for the machine"):
     random_df = pd.DataFrame(columns=imp_features)
-    for i in range(1,500):
+    for i in range(1,5000):
     
         f1 = round(random.uniform(0.0, 383.4),2)
         f2 = round(random.uniform(0.08, 83.45),2)
