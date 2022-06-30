@@ -40,7 +40,7 @@ col1.write('***** This application is just a POC, features selected are not fina
 st.sidebar.title('Adjust Tweakable parameters')
 
 
-image = Image.open('https://github.com/abhishekjmathcompany/Splicing/blob/ecf43ec81b469c7f24d5642cf5c7110bf807c22c/Shap.png')
+image = Image.open('./Shap.png')
 col1.image(image, caption='SHAP Feature imporatnce')
 col1.write('''Note: while SHAP shows the contribution or the importance of each feature on the prediction
  of the model, it does not evaluate the quality of the prediction itself.'''    )
